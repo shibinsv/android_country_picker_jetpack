@@ -86,7 +86,7 @@ fun CountryCodePicker(
 
 
     val colors = TextFieldDefaults.textFieldColors(
-//                backgroundColor = transparent,
+        containerColor = transparent,
         disabledIndicatorColor = transparent,
         disabledTextColor = textStyle.color,
         cursorColor = Color.Blue,
@@ -136,6 +136,7 @@ fun CountryCodePicker(
     /*The view with textField to enter mobile number*/
     Box(
         modifier = Modifier
+            .padding(10.dp)
             .drawWithContent {
                 drawContent()
                 drawLine(
