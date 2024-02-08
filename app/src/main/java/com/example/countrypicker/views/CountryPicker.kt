@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material3.Icon
@@ -90,6 +91,7 @@ fun CountryPicker(
 
     /*View to be shown default*/
     Box(modifier = Modifier
+        .padding(10.dp)
         .drawWithContent {
             drawContent()
             drawLine(
