@@ -1,4 +1,4 @@
-package com.example.countrypicker.views
+package com.shibin.country_picker.views
 
 import android.content.Context
 import androidx.compose.foundation.background
@@ -36,7 +36,7 @@ import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
-import com.example.countrypicker.models.CountryDataClass
+import com.shibin.country_picker.models.CountryDataClass
 import kotlinx.coroutines.launch
 import kotlin.math.abs
 

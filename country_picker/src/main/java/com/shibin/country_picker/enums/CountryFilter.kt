@@ -1,4 +1,4 @@
-package com.example.countrypicker.enums
+package com.shibin.country_picker.enums
 
 enum class CountryFilter {
     ShowAllCountries, //To show all the countries from the available json

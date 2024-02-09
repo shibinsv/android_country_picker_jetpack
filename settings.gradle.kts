@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Country picker"
 include(":app")
- 
+include(":country_picker")
