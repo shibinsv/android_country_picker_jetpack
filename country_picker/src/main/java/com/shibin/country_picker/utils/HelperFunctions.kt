@@ -1,14 +1,14 @@
-package com.example.countrypicker.utils
+package com.shibin.country_picker.utils
 
 import android.content.Context
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
-import com.example.countrypicker.enums.CountryFilter
-import com.example.countrypicker.models.CountryDataClass
-import com.example.countrypicker.utils.CommonUtils.loadFromLocalJson
 import com.google.gson.Gson
+import com.shibin.country_picker.enums.CountryFilter
+import com.shibin.country_picker.models.CountryDataClass
+import com.shibin.country_picker.utils.CommonUtils.loadFromLocalJson
 
 object HelperFunctions {
 

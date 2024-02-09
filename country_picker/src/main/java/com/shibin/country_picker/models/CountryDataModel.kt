@@ -1,4 +1,4 @@
-package com.example.countrypicker.models
+package com.shibin.country_picker.models
 
 data class CountryDataClass(
     val name: String,

@@ -1,4 +1,4 @@
-package com.example.countrypicker.views
+package com.shibin.country_picker.views
 
 
 import androidx.compose.foundation.clickable
@@ -22,9 +22,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
-import com.example.countrypicker.enums.CountryFilter
-import com.example.countrypicker.models.CountryDataClass
-import com.example.countrypicker.utils.HelperFunctions
+import com.shibin.country_picker.enums.CountryFilter
+import com.shibin.country_picker.models.CountryDataClass
+import com.shibin.country_picker.utils.HelperFunctions
 
 /**Function to display a custom country picker
  * @author Shibin

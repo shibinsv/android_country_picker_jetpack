@@ -14,10 +14,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.example.countrypicker.enums.CountryFilter
-import com.example.countrypicker.models.CountryDataClass
-import com.example.countrypicker.views.CountryCodePicker
-import com.example.countrypicker.views.CountryPicker
+import com.shibin.country_picker.enums.CountryFilter
+import com.shibin.country_picker.models.CountryDataClass
+import com.shibin.country_picker.views.CountryCodePicker
+import com.shibin.country_picker.views.CountryPicker
 
 class MainActivity : ComponentActivity() {
 

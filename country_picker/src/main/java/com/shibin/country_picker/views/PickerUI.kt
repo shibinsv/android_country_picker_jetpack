@@ -1,4 +1,4 @@
-package com.example.countrypicker.views
+package com.shibin.country_picker.views
 
 import android.content.Context
 import androidx.compose.foundation.background
@@ -34,7 +34,7 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import coil.decode.SvgDecoder
 import coil.request.ImageRequest
-import com.example.countrypicker.models.CountryDataClass
+import com.shibin.country_picker.models.CountryDataClass
 
 
 @Composable

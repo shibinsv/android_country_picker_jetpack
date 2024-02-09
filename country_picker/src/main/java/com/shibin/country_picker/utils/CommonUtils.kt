@@ -1,4 +1,4 @@
-package com.example.countrypicker.utils
+package com.shibin.country_picker.utils
 
 import android.content.Context
 import androidx.compose.foundation.layout.WindowInsets
