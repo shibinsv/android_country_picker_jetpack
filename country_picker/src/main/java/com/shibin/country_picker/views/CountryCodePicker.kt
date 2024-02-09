@@ -70,7 +70,6 @@ fun CountryCodePicker(
     val context = LocalContext.current
 
     val isFieldFocused = rememberSaveable { mutableStateOf(false) }
-    val backgroundColor = Color.Transparent
     val transparent = Color.Transparent
     val borderColor = if (isFieldFocused.value) Color.Blue else Color.LightGray
 
@@ -85,13 +84,15 @@ fun CountryCodePicker(
     val isDialogShown = remember { mutableStateOf(false) }
 
 
-    val colors = TextFieldDefaults.textFieldColors(
-        containerColor = transparent,
-        disabledIndicatorColor = transparent,
+    val colors = TextFieldDefaults.colors(
         disabledTextColor = textStyle.color,
+        focusedContainerColor = transparent,
+        unfocusedContainerColor = transparent,
+        disabledContainerColor = transparent,
         cursorColor = Color.Blue,
         focusedIndicatorColor = transparent,
         unfocusedIndicatorColor = transparent,
+        disabledIndicatorColor = transparent,
     )
 
     fun openSheet() {
@@ -140,7 +141,7 @@ fun CountryCodePicker(
             .drawWithContent {
                 drawContent()
                 drawLine(
-                    color = borderColor ?: Color.LightGray,
+                    color = borderColor,
                     start = Offset(0f, size.height),
                     end = Offset(size.width, size.height),
                     strokeWidth = 2.dp.toPx()
