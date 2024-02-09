@@ -124,12 +124,13 @@ fun ShowBottomSheet(
                 Box {
                     Column {
                         TextField(modifier = Modifier.fillMaxWidth(),
-                            colors = TextFieldDefaults.textFieldColors(
-//                                        backgroundColor = Color.White,
-//                                        textColor = Color.Black,
+                            colors = TextFieldDefaults.colors(
+                                focusedContainerColor = Color.Transparent,
+                                unfocusedContainerColor = Color.Transparent,
+                                disabledContainerColor = Color.Transparent,
                                 cursorColor = Color.Blue,
                                 focusedIndicatorColor = lineColor,
-                                unfocusedIndicatorColor = lineColor
+                                unfocusedIndicatorColor = lineColor,
                             ),
                             textStyle = textStyle,
                             value = searchText,

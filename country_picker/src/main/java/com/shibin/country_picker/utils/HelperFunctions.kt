@@ -13,7 +13,7 @@ import com.shibin.country_picker.utils.CommonUtils.loadFromLocalJson
 object HelperFunctions {
 
     fun placeHolder(hint: String, style: TextStyle): @Composable() (() -> Unit) {
-        return { Text(text = hint, style = TextStyle(color = Color.LightGray)) }
+        return { Text(text = hint, style = style.copy(color = Color.LightGray)) }
     }
 
     /** Function to get the list of all countries available from the json*/
